@@ -1,0 +1,223 @@
+*, *::before, *::after {
+    box-sizing: border-box;  
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+/* =================
+    Typography 
+   ================= */
+
+.intro h1 {
+    font-family: "Comic Relief", system-ui;
+    font-size: 2rem;
+    font-weight: 400;
+    text-shadow: 0 2px #48391b;
+    margin-top: 1em;
+}
+
+h2 {
+    font-family: "Rock Salt", cursive;
+    color: #e67e22;
+    text-shadow: 2px 2px 2px #4e1e10;
+    font-size: 2.25rem;
+    margin: .1675 0;
+}
+
+ .title {
+     font-family: "Rock Salt", cursive;
+     font-size: 2.25rem;
+     color: #e67e22;
+     text-shadow: 2px 5px 2px #3a2910;
+     font-weight: bold;
+     margin: 0 auto;
+     rotate: -10deg;
+     padding-bottom: 3em;    
+}
+
+p {
+    font-family: "Comic Relief", system-ui;
+    font-size: 1.125rem;
+    line-height: 1.35;
+}
+
+.beta-text { 
+    font-weight: 900;
+    color: #e67e22;
+    border-top:.1em solid #e67e22;
+    padding-top: .4em;
+    padding-bottom: .4em;
+    border-bottom:.1em solid #e67e22;
+    margin: 0 auto;
+}
+
+.subheading {
+    font-family: "Faster One", system-ui;
+    color: #575757;   
+}
+
+.beta-text,
+.top-text,
+.subheading {
+    text-transform: uppercase;
+}
+
+.fine-print {
+    font-size: 0.55rem;
+    letter-spacing: 1px;
+    color: #858585;
+}
+
+
+/* =================
+    Flex containers
+   ================= */
+
+.intro,
+.main-content {
+    display: flex;
+    flex-direction: column; 
+    padding-left: 2em;
+    padding-right: 2em;
+  
+}
+
+
+/* =================
+    Intro  <p class="top-text">Powered by Show Up!</p>
+   ================= */
+
+.intro { 
+    justify-content: space-between;
+    min-height: 350px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background: url("images/socialize_unsplash.jpg") no-repeat 30% center;
+    background-size: cover; 
+    border-top: 5px solid #e67e22;
+    padding-bottom: 1em;   
+}
+
+
+
+
+
+/* ====================
+    Main content
+   ==================== */
+   
+.main-content {
+    align-items: center;
+   
+}
+
+.img-main {
+    margin-top: 3em;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.main-content p,
+form {
+    max-width: 450px;
+}
+
+/* =================
+    Form
+   ================= */
+
+input,
+button {
+    font-family: inherit;
+    width: 100%; 
+    border-radius: 5px;   
+}
+
+input {
+    padding: 0.5em;
+    margin-bottom: 0.75em;
+    border: 2px solid #e67e22;
+}
+
+input:focus {
+    outline: none;
+    border-color: #8a71ec;
+    background-color: #e6e8ec;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding: 1em 0;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #e67e22;
+    margin-top: 1em;
+    border: 1.5px solid #4e1e10;    
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #b7a7f6;
+}
+
+/* =================
+    Media queries 
+   ================= */
+
+@media (min-width: 578px) {
+    body {
+        display: flex;
+    }
+    
+  .intro  h1 {
+        font-size: 5vw;
+    }
+    
+    .title {
+        font-size: 5vw;
+        padding-left: .9em;
+        padding-bottom: 4.5em;
+    }
+    
+    .img-main {
+        margin-top: 0;
+        width: 150px;
+    }
+    
+    h2 {
+        font-size: 2.625rem;
+    }
+    
+    .beta-text {
+        font-size: 1.25rem;
+        margin-bottom: 3em;
+    }
+    
+    .intro,
+    .main-content {
+        width: 50%;
+    }
+    
+    .intro {
+        min-height: 100vh;
+        background-position: 40% center;
+    }
+    
+    .main-content {
+        justify-content: center;
+        margin-top: 0;
+    }
+    
+   } 
+ 
+
