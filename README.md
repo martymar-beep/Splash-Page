@@ -30,4 +30,10 @@ and styled an accessible sign-up form to match the design.
 I actually had a riot coming up with the product idea and choosing the colors, logos, and images. 
 I loved designing the product and the product page — this one was just fun!
 
+---
+🙋‍♀️ Author  
+Margaret Martin  
+[Portfolio](coming soon)  
+[LinkedIn]([https://www.linkedin.com/in/margaret-martin-55807438/])  
+Email: devmartin [at] codes [dot] com  
 
