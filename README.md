@@ -31,9 +31,11 @@ I actually had a riot coming up with the product idea and choosing the colors, l
 I loved designing the product and the product page — this one was just fun!
 
 ---
-🙋‍♀️ **Author** 
-**Margaret Martin**  
+🙋‍♀️ **Author**   
+
+Margaret Martin  
 - [Portfolio](https://astounding-muffin-e43077.netlify.app/)  
 - [LinkedIn](https://www.linkedin.com/in/margaret-martin-55807438/)  
 Email: devmartin.codes\[at]outlook\[dot]com
+
 
